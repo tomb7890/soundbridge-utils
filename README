@@ -21,11 +21,11 @@ $ play-preset folk alley
 Playing Folk Alley - WXPN - Philadelphia... OK
 
 
-$ soundbridge-growl &
-```
+
 # Uses Ubuntu's growl-like notifications to show the current song.
 # Currently has some KCRW-specific tailoring.
-
+`
+$ soundbridge-growl &`
 `
 $ soundbridge-upnp-play`
 Playing 'streaming' over the soundbridge
@@ -49,8 +49,9 @@ speakers-mime=audio/x-wav
 speakers-launch=pulsesrc device=alsa_output.pci-0000_00_1b.0.analog-stereo.monitor ! wavenc
 
 $ tail -n 3 /etc/pulse/default.pa
+```
 # Setup a streaming sink
-load-module module-null-sink sink_name=streaming format=s16be channels=2 rate=44100 sink_properties="device.description='Streaming'"
+```load-module module-null-sink sink_name=streaming format=s16be channels=2 rate=44100 sink_properties="device.description='Streaming'"
 
 
 $ soundbridge-upnp-stop```
@@ -82,5 +83,5 @@ Streaming chrome (21) to off (0)
 $ stream preset npr
 Playing NPR... OK
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1MjEwNjc3MF19
+eyJoaXN0b3J5IjpbLTIwNTY3MDAyNDBdfQ==
 -->
