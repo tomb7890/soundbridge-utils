@@ -23,7 +23,9 @@ $ play-preset folk alley
 Playing Folk Alley - WXPN - Philadelphia... OK
 
 
+
 ```
+### Growl 
  - Uses Ubuntu's growl-like notifications to show the current song.
  - Currently has some KCRW-specific tailoring.
 
@@ -88,5 +90,5 @@ $ stream preset npr
 Playing NPR... OK
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxOTMxNTIyMCw4MTIwNTU5MzRdfQ==
+eyJoaXN0b3J5IjpbLTE0MjMzMDYzNzYsODEyMDU1OTM0XX0=
 -->
