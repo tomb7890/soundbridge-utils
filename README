@@ -39,10 +39,8 @@ Playing 'streaming' over the soundbridge
 Playing 'speakers' over the soundbridge
 
 Plays UPnP audio streams served by Rygel's Gst Launch plugin.
-I have the following pulseaudio and rygel config snippets below.  
-
 See [Streaming](#Streaming) for how I put it all together.
-
+I have the following pulseaudio and rygel config snippets below.  
 
 ```
 $ cat ~/.config/rygel.conf # trimmed
@@ -93,6 +91,6 @@ $ stream preset npr
 Playing NPR... OK
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2MzI2Njg4NSwxODMyNjQzMTMsODEyMD
+eyJoaXN0b3J5IjpbMTMzMzIzMzk1MywxODMyNjQzMTMsODEyMD
 U1OTM0XX0=
 -->
