@@ -32,13 +32,15 @@ Playing Folk Alley - WXPN - Philadelphia... OK
 
 ### UPnP 
 
+Play UPnP audio streams served by Rygel's Gst Launch plugin.
+
 `$ soundbridge-upnp-play`
 Playing 'streaming' over the soundbridge
 
 `$ soundbridge-upnp-play speakers`
 Playing 'speakers' over the soundbridge
 
-Plays UPnP audio streams served by Rygel's Gst Launch plugin.
+
 See [Streaming](#Streaming) for how I put it all together.
 I have the following pulseaudio and rygel config snippets below.  
 
@@ -91,6 +93,6 @@ $ stream preset npr
 Playing NPR... OK
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMzIzMzk1MywxODMyNjQzMTMsODEyMD
+eyJoaXN0b3J5IjpbLTU2MTMxNjUyNiwxODMyNjQzMTMsODEyMD
 U1OTM0XX0=
 -->
