@@ -1,8 +1,10 @@
+## Command Line Utilties
 These utilities are pretty tailored to me right now and could use librarization
 and genericizing a bit.
 
 That said, they're quite simple and easy to modify.
 
+### Play Preset
 Usage examples:
 ```
 $ play-preset
@@ -86,5 +88,5 @@ $ stream preset npr
 Playing NPR... OK
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODEyMDU1OTM0XX0=
+eyJoaXN0b3J5IjpbMTcxOTMxNTIyMCw4MTIwNTU5MzRdfQ==
 -->
