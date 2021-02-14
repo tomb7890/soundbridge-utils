@@ -63,7 +63,7 @@ load-module module-null-sink sink_name=streaming format=s16be channels=2 rate=44
 Stop the music and go home
 `$ soundbridge-upnp-stop`
 
-
+### Streaming
 
 `stream` is very specific to my setup and takes care of all the funny business
 of redirecting pulse audio streams around to the various devices I care about.
@@ -91,5 +91,5 @@ $ stream preset npr
 Playing NPR... OK
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTMwMzk2MzQsODEyMDU1OTM0XX0=
+eyJoaXN0b3J5IjpbMTgzMjY0MzEzLDgxMjA1NTkzNF19
 -->
