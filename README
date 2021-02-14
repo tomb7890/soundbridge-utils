@@ -1,6 +1,5 @@
 ## Command Line Utilties
-These utilities are pretty tailored to me right now and could use librarization
-and genericizing a bit.
+These utilities are pretty tailored to me right now and could use librarization and genericizing a bit.
 
 That said, they're quite simple and easy to modify.
 
@@ -30,8 +29,10 @@ Playing Folk Alley - WXPN - Philadelphia... OK
  - Currently has some KCRW-specific tailoring.
 
 `$ soundbridge-growl &`
-`
-$ soundbridge-upnp-play`
+
+### UPnP 
+
+`$ soundbridge-upnp-play`
 Playing 'streaming' over the soundbridge
 
 `$ soundbridge-upnp-play speakers`
@@ -90,5 +91,5 @@ $ stream preset npr
 Playing NPR... OK
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjMzMDYzNzYsODEyMDU1OTM0XX0=
+eyJoaXN0b3J5IjpbLTE0NTMwMzk2MzQsODEyMDU1OTM0XX0=
 -->
