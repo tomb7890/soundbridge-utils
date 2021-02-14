@@ -51,12 +51,13 @@ speakers-launch=pulsesrc device=alsa_output.pci-0000_00_1b.0.analog-stereo.monit
 
 $ tail -n 3 /etc/pulse/default.pa
 ```
-# Setup a streaming sink
-```load-module module-null-sink sink_name=streaming format=s16be channels=2 rate=44100 sink_properties="device.description='Streaming'"
+- Setup a streaming sink
+```
+load-module module-null-sink sink_name=streaming format=s16be channels=2 rate=44100 sink_properties="device.description='Streaming'"
+```
+Stop the music and go home
+`$ soundbridge-upnp-stop`
 
-
-$ soundbridge-upnp-stop```
-# Stop the music and go home
 
 
 `stream` is very specific to my setup and takes care of all the funny business
@@ -84,5 +85,5 @@ Streaming chrome (21) to off (0)
 $ stream preset npr
 Playing NPR... OK
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNzg0NzU5OV19
+eyJoaXN0b3J5IjpbODMwMzA0MTg4XX0=
 -->
