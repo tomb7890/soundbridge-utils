@@ -20,9 +20,6 @@ Playing 89.9 KCRW Eclectic Music - Santa Monica... OK
 
 $ play-preset folk alley
 Playing Folk Alley - WXPN - Philadelphia... OK
-
-
-
 ```
 ### Growl 
  - Uses Ubuntu's growl-like notifications to show the current song.
@@ -58,7 +55,7 @@ speakers-launch=pulsesrc device=alsa_output.pci-0000_00_1b.0.analog-stereo.monit
 
 $ tail -n 3 /etc/pulse/default.pa
 ```
-- Setup a streaming sink
+Setup a streaming sink
 ```
 load-module module-null-sink sink_name=streaming format=s16be channels=2 rate=44100 sink_properties="device.description='Streaming'"
 ```
@@ -93,6 +90,6 @@ $ stream preset npr
 Playing NPR... OK
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTMxNjUyNiwxODMyNjQzMTMsODEyMD
-U1OTM0XX0=
+eyJoaXN0b3J5IjpbLTUyOTg4MTIwNywtNTYxMzE2NTI2LDE4Mz
+I2NDMxMyw4MTIwNTU5MzRdfQ==
 -->
