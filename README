@@ -24,8 +24,8 @@ Playing Folk Alley - WXPN - Philadelphia... OK
 ```
  - Uses Ubuntu's growl-like notifications to show the current song.
  - Currently has some KCRW-specific tailoring.
-`
-$ soundbridge-growl &`
+
+`$ soundbridge-growl &`
 `
 $ soundbridge-upnp-play`
 Playing 'streaming' over the soundbridge
@@ -34,8 +34,9 @@ Playing 'streaming' over the soundbridge
 Playing 'speakers' over the soundbridge
 
 - Plays UPnP audio streams served by Rygel's Gst Launch plugin.
-- I have the following pulseaudio and rygel config snippets below.  See
-# `stream` for how I put it all together.
+- I have the following pulseaudio and rygel config snippets below.  
+
+See  `stream` for how I put it all together.
 ```
 $ cat ~/.config/rygel.conf # trimmed
 [GstLaunch]
@@ -83,5 +84,5 @@ Streaming chrome (21) to off (0)
 $ stream preset npr
 Playing NPR... OK
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTg2MzQ4MDhdfQ==
+eyJoaXN0b3J5IjpbLTkxNzg0NzU5OV19
 -->
