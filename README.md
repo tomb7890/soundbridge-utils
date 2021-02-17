@@ -32,9 +32,11 @@ Playing Folk Alley - WXPN - Philadelphia... OK
 Play UPnP audio streams served by Rygel's Gst Launch plugin.
 
 `$ soundbridge-upnp-play`
+
 Playing 'streaming' over the soundbridge
 
 `$ soundbridge-upnp-play speakers`
+
 Playing 'speakers' over the soundbridge
 
 
@@ -60,6 +62,7 @@ tail -n 3 /etc/pulse/default.pa
 load-module module-null-sink sink_name=streaming format=s16be channels=2 rate=44100 sink_properties="device.description='Streaming'"
 ```
 Stop the music and go home
+
 `$ soundbridge-upnp-stop`
 
 ### Streaming
