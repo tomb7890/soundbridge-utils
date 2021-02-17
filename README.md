@@ -52,11 +52,11 @@ streaming-launch=pulsesrc device=streaming.monitor ! wavenc
 speakers-title=Audio from blip's speakers
 speakers-mime=audio/x-wav
 speakers-launch=pulsesrc device=alsa_output.pci-0000_00_1b.0.analog-stereo.monitor ! wavenc
-
-$ tail -n 3 /etc/pulse/default.pa
 ```
+
 Setup a streaming sink
 ```
+tail -n 3 /etc/pulse/default.pa
 load-module module-null-sink sink_name=streaming format=s16be channels=2 rate=44100 sink_properties="device.description='Streaming'"
 ```
 Stop the music and go home
